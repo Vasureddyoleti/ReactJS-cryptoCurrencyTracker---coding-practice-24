@@ -1,0 +1,60 @@
+/* Write your CSS code here */
+.list-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-top: 25px;
+}
+.heading {
+  color: #00e7ff;
+  font-family: 'Roboto';
+}
+.unorder-list-cont {
+  list-style-type: none;
+  padding-left: 0px;
+  border: 2px solid #00e7ff;
+  border-radius: 8px;
+  width: 100%;
+}
+.heading-container {
+  background-color: #092e33;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+.usd-euro-heading-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 20%;
+}
+.coin-type-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+
+.usd-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+.euro-heading {
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 22px;
+  font-weight: 600;
+}
+@media (max-width: 767px) {
+  .image {
+    width: 60%;
+  }
+}

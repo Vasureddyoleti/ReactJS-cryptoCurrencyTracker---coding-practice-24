@@ -1,0 +1,36 @@
+/* Write your CSS code here */
+.list-element-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-left: 35px;
+  padding-right: 35px;
+}
+
+.logo-name-container {
+  display: flex;
+  align-items: center;
+}
+.value-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 21%;
+}
+.logo {
+  height: 40px;
+  width: 40px;
+  margin-right: 15px;
+}
+.currency-name {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.usd-value {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+.euro-value {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
